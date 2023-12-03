@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load model yang telah disimpan
-model = load_model('./model/mdj.h5')
+model = load_model('mdj.h5')
 
 # Fungsi untuk memproses gambar dan melakukan prediksi
 def predict_image(img):
