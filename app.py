@@ -1,6 +1,9 @@
 import streamlit as st
 from st_pages import Page, show_pages, add_page_title
+from PIL import Image
 
+landing_page = Image.open("./img_sources/lp.png")
+st.image(landing_page,use_column_width=True)
 # Judul aplikasi
 st.title('Aplikasi Klasifikasi Tipe Jagung')
 
