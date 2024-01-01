@@ -6,7 +6,7 @@ TULIS PERINTAH - upload model > 100 MB
 1. BUKA GIT BASH
 2. MASUK DALAM REPOSITORY
 3. Ketik "git lfs install"
-4. Ketik git lfs track "*.h5"
+4. Ketik git lfs track "*.h5" atau ganti dengan ekstensi model anda
 5. Then Upload to your repository using github desktop. 
 
 #######################################################
@@ -25,3 +25,4 @@ git commit -m "Re-add large file with LFS"
 push
 git push origin main --force
 
+Selesai
